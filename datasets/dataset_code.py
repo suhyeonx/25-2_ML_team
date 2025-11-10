@@ -53,6 +53,6 @@ print(f"검증용 데이터셋(val): {len(val_df)}")
 print(f"테스트용 데이터셋(test): {len(test_df)}")
 
 # 저장
-train_df.to_csv("train_dataset.csv", index=False)
-val_df.to_csv("validation_dataset.csv", index=False)
-test_df.to_csv("test_dataset.csv", index=False)
+train_df.to_csv("split/train_dataset.csv", index=False)
+val_df.to_csv("split/validation_dataset.csv", index=False)
+test_df.to_csv("split/test_dataset.csv", index=False)
