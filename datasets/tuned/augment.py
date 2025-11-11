@@ -87,8 +87,8 @@ def make_time_shift(v_data):
 
     return v_final
 
-dataset_file = "split/train_dataset.csv"
-output_file = "split/train_augmented.csv"
+dataset_file = "../split/train_dataset.csv"
+output_file = "augmented_data/train_augmented.csv"
 
 normal_aug = 4
 falling_aug = 8
